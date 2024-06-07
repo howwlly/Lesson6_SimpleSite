@@ -1,0 +1,201 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: Roboto-Medium;
+  src: url(../fonts/Roboto-Medium.ttf);
+}
+
+.fix-size-container {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 79px 0 169px;
+  background: #EEEFF1;
+  width: 100%;
+}
+
+.header_list > .item {
+  display: inline-block;
+}
+
+.header_list .active {
+  color: #34547A;
+}
+
+.header_list a {
+  font-family: "Roboto-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26.25px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  color: #000000;
+  text-decoration: none;
+}
+
+.header_list .margin ~ .item {
+  margin-left: 42px;
+}
+
+
+.h1 {
+  font-family: "Roboto-Medium";
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 78.75px;
+  text-align: left;
+  margin-bottom: 60px;
+}
+
+.text-grey {
+  color: #727272;
+  font-family: "Roboto-Regular";
+  margin-bottom: 65px;
+  line-height: 26.25px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26.25px;
+  text-align: left;
+}
+
+
+.main-block {
+  background: #EEEFF1;
+  margin-bottom: 65px 0;
+  height: 700px;
+  width: 100%;
+}
+
+.button {
+  font-family: "Roboto-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26.25px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  background-color: #34547A;
+  width: 225px;
+  height: 65px;
+  border: #EEEFF1;
+  margin-left:  auto;
+}
+
+
+.button-text {
+  color: #EEEFF1;
+}
+
+.h2 {
+  font-family: "Roboto-Regular";
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 37.5px;
+  text-align: center;
+  margin-top: 112px;
+}
+
+.text-grey2 {
+  font-family: "Roboto-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26.25px;
+  text-align: center;
+  margin-top: 50px;
+  color: #727272;
+}
+
+.section-2 {
+  margin-bottom: 100px;
+}
+
+.background-blue {
+  background-color: #34547A;
+  color: white;
+  height: 250px;
+  top: 1059px;
+  width: 100%;
+}
+
+.image {
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+
+.inline-block {
+  display: inline-block;
+  width: 70px;
+  height: 44px;
+  vertical-align: middle;
+  font-family: "Roboto-Regular";
+  font-size: 21px;
+  line-height: 24.61px;
+  text-align: left;
+}
+
+.card {
+  display: inline-block;
+  padding-right: 49px;
+  padding-top: 100px;
+}
+
+.card-1 {
+  display: inline-block;
+  padding-right: 45px;
+  padding-top: 100px;
+}
+
+.card-6 {
+  display: inline-block;
+  padding-top: 100px;
+}
+
+.text-2 {
+  margin-bottom: 57px;
+}
+
+.Lesson6 {
+  width: 1110px;
+  height: 600px;
+  top: 1613px;
+  left: 405px;
+  gap: 0px;
+  opacity: 0px;
+  align-content: center;
+}
+
+.end {
+  background-color: #34547A;
+  color: white;
+  width: 100%;
+  height: 151px;
+  top: 2313px;
+  margin-top: 100px;
+}
+
+.h3 {
+  padding-top: 50px;
+  font-family: "Roboto-Regular";
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 24.61px;
+  text-align: left;
+}
+.text-end{
+  font-family: "Roboto-Regular";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 21.33px;
+  text-align: left;
+  margin-top: 20px;
+}
